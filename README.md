@@ -15,7 +15,6 @@ BMI = Berat Badan (kg) / Tinggi Badan (m)²
 
 ## Kategori BMI
 
-| Nilai BMI | Kategori |
 < 18,5 = Underweight 
 18,5-24,9 = Normal
 25 - 29,9 = Overweight
