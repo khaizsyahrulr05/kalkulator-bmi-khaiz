@@ -1,0 +1,65 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0"
+            prefWidth="400.0"
+            xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.mycompany.kalkulatorbmi.TampilanController">
+
+    <children>
+
+        <!-- Judul -->
+        <Label layoutX="80.0"
+               layoutY="60.0"
+               text="BMI CALCULATOR">
+            <font>
+                <Font name="System Bold" size="24.0"/>
+            </font>
+        </Label>
+
+        <!-- Input berat badan -->
+        <Label layoutX="17.0"
+               layoutY="130.0"
+               text="BERAT BADAN (KG)"/>
+
+        <TextField fx:id="berat"
+                   layoutX="17.0"
+                   layoutY="155.0"
+                   prefWidth="350.0"
+                   promptText="Masukkan berat badan"/>
+
+        <!-- Input tinggi badan -->
+        <Label layoutX="17.0"
+               layoutY="220.0"
+               text="TINGGI BADAN (CM)"/>
+
+        <TextField fx:id="tinggi"
+                   layoutX="17.0"
+                   layoutY="245.0"
+                   prefWidth="350.0"
+                   promptText="Masukkan tinggi badan"/>
+
+        <!-- Tombol hitung -->
+        <Button fx:id="hitung"
+                layoutX="125.0"
+                layoutY="320.0"
+                mnemonicParsing="false"
+                onAction="#hitungBMI"
+                prefWidth="150.0"
+                text="HITUNG BMI"/>
+
+        <!-- Hasil BMI -->
+        <Label fx:id="hasil"
+               layoutX="50.0"
+               layoutY="390.0"
+               prefWidth="300.0"
+               wrapText="true"
+               text="Hasil BMI akan muncul di sini"/>
+
+    </children>
+
+</AnchorPane>
