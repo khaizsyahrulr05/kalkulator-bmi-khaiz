@@ -1,5 +1,3 @@
-# kalkulator-bmi-khaiz
-Kalkulator BMI sederhana 
 # Kalkulator BMI
 
 Aplikasi sederhana untuk menghitung BMI
@@ -15,10 +13,10 @@ BMI = Berat Badan (kg) / Tinggi Badan (m)²
 
 ## Kategori BMI
 
-< 18,5 = Underweight 
-18,5-24,9 = Normal
-25 - 29,9 = Overweight
-≥ 30 = Obesitas
+- < 18,5 = Underweight,
+- 18,5-24,9 = Normal,
+- 25 - 29,9 = Overweight,
+- ≥ 30 = Obesitas
 
 ## Cara Menjalankan
 1. Clone repository ini.
